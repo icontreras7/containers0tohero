@@ -15,3 +15,16 @@ Task List
 11. Create a ClusterIP Service. (Balance multiple replicas and internal exposition)
 12. Create a LoadBalancer Service. (Balance multiple replicas and external exposition)
 13. Create an Ingress Controller. 
+
+
+Technologies involved
+
+1. Docker
+2. ACR
+3. Azure Key Vault
+4. AKS
+5. Azure CLI
+6. BICEP
+7. Terraform
+8. Dapr
+9. Service Mesh (Istio)
