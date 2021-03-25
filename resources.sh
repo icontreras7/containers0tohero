@@ -65,3 +65,16 @@ docker run -d -p 8080:8080 iamfred/mvcapi -n apicontainer
 
 #Test the container
 echo $(wget -qO- http://localhost:8080/api/fredtext)
+
+#build on ACR
+az acr build --registry acrocp --image iamfred/mvcapi .
+
+#create aks
+#Portal
+
+#NetworkPolicy
+https://docs.microsoft.com/en-us/azure/aks/use-network-policies
+
+#AKS Policy
+https://docs.microsoft.com/en-us/azure/aks/use-azure-policy?toc=/azure/governance/policy/toc.json&bc=/azure/governance/policy/breadcrumb/toc.json
+
